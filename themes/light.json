@@ -1,0 +1,250 @@
+{
+  "$schema": "https://raw.githubusercontent.com/TabularisDB/tabularis/main/src/schemas/theme-definition-v1.json",
+  "schemaVersion": 1,
+  "mode": "light",
+  "attribution": "Catppuccin Latte by Catppuccin (https://catppuccin.com), MIT licensed. Adapted for Tabularis; a few colors darkened/lightened for WCAG AA contrast.",
+  "colors": {
+    "bg": {
+      "base": "#eff1f5",
+      "elevated": "#e6e9ef",
+      "overlay": "#e6e9ef",
+      "input": "#e6e9ef",
+      "tooltip": "#dce0e8"
+    },
+    "surface": {
+      "primary": "#e6e9ef",
+      "secondary": "#dce0e8",
+      "tertiary": "#ccd0da",
+      "hover": "#dce0e8",
+      "active": "#8839ef",
+      "disabled": "#e6e9ef"
+    },
+    "text": {
+      "primary": "#4c4f69",
+      "secondary": "#5c5f77",
+      "muted": "#5f6276",
+      "disabled": "#9ca0b0",
+      "accent": "#802cee",
+      "inverse": "#eff1f5"
+    },
+    "accent": {
+      "primary": "#8839ef",
+      "secondary": "#bf1d94",
+      "success": "#307820",
+      "warning": "#925d13",
+      "error": "#d00f38",
+      "info": "#177383"
+    },
+    "border": {
+      "subtle": "#ccd0da",
+      "default": "#bcc0cc",
+      "strong": "#acb0be",
+      "focus": "#637afd"
+    },
+    "semantic": {
+      "string": "#307820",
+      "number": "#b74301",
+      "boolean": "#b74301",
+      "date": "#12747a",
+      "null": "#65687c",
+      "primaryKey": "#925d13",
+      "foreignKey": "#177383",
+      "index": "#8737ef",
+      "modified": "#925d13",
+      "deleted": "#d00f38",
+      "new": "#307820"
+    }
+  },
+  "editor": {
+    "colors": {
+      "editor.background": "#eff1f5",
+      "editor.foreground": "#4c4f69",
+      "editor.lineHighlightBackground": "#ccd0da66",
+      "editor.selectionBackground": "#7c7f9340",
+      "editor.inactiveSelectionBackground": "#7c7f9326",
+      "editor.selectionHighlightBackground": "#7c7f9326",
+      "editorCursor.foreground": "#d46e58",
+      "editorLineNumber.foreground": "#9ca0b0",
+      "editorLineNumber.activeForeground": "#7287fd",
+      "editorIndentGuide.background": "#ccd0da",
+      "editorIndentGuide.activeBackground": "#acb0be",
+      "editorBracketMatch.border": "#7c7f93",
+      "editorBracketMatch.background": "#7c7f931a",
+      "editorWidget.background": "#e6e9ef",
+      "editorWidget.border": "#bcc0cc",
+      "editorSuggestWidget.background": "#e6e9ef",
+      "editorSuggestWidget.selectedBackground": "#ccd0da",
+      "editorSuggestWidget.border": "#bcc0cc",
+      "editorHoverWidget.background": "#e6e9ef",
+      "editorHoverWidget.border": "#bcc0cc",
+      "editor.findMatchBackground": "#d20f3933",
+      "editor.findMatchHighlightBackground": "#04a5e533",
+      "editor.wordHighlightBackground": "#7c7f9326",
+      "editorWhitespace.foreground": "#7c7f9366",
+      "scrollbarSlider.background": "#bcc0cc99",
+      "scrollbarSlider.hoverBackground": "#acb0beaa",
+      "editorError.foreground": "#d00f38",
+      "editorWarning.foreground": "#925d13"
+    },
+    "rules": [
+      {
+        "token": "keyword",
+        "foreground": "#802cee",
+        "fontStyle": "bold"
+      },
+      {
+        "token": "keyword.sql",
+        "foreground": "#802cee",
+        "fontStyle": "bold"
+      },
+      {
+        "token": "keyword.block",
+        "foreground": "#802cee",
+        "fontStyle": "bold"
+      },
+      {
+        "token": "keyword.block.sql",
+        "foreground": "#802cee",
+        "fontStyle": "bold"
+      },
+      {
+        "token": "keyword.choice",
+        "foreground": "#802cee",
+        "fontStyle": "bold"
+      },
+      {
+        "token": "keyword.choice.sql",
+        "foreground": "#802cee",
+        "fontStyle": "bold"
+      },
+      {
+        "token": "keyword.try",
+        "foreground": "#802cee",
+        "fontStyle": "bold"
+      },
+      {
+        "token": "keyword.try.sql",
+        "foreground": "#802cee",
+        "fontStyle": "bold"
+      },
+      {
+        "token": "keyword.catch",
+        "foreground": "#802cee",
+        "fontStyle": "bold"
+      },
+      {
+        "token": "keyword.catch.sql",
+        "foreground": "#802cee",
+        "fontStyle": "bold"
+      },
+      {
+        "token": "string",
+        "foreground": "#307820"
+      },
+      {
+        "token": "string.sql",
+        "foreground": "#307820"
+      },
+      {
+        "token": "string.quote",
+        "foreground": "#307820"
+      },
+      {
+        "token": "string.quote.sql",
+        "foreground": "#307820"
+      },
+      {
+        "token": "number",
+        "foreground": "#b74301"
+      },
+      {
+        "token": "number.sql",
+        "foreground": "#b74301"
+      },
+      {
+        "token": "comment",
+        "foreground": "#6a6d81",
+        "fontStyle": "italic"
+      },
+      {
+        "token": "comment.sql",
+        "foreground": "#6a6d81",
+        "fontStyle": "italic"
+      },
+      {
+        "token": "comment.quote",
+        "foreground": "#6a6d81",
+        "fontStyle": "italic"
+      },
+      {
+        "token": "comment.quote.sql",
+        "foreground": "#6a6d81",
+        "fontStyle": "italic"
+      },
+      {
+        "token": "operator",
+        "foreground": "#0375a3"
+      },
+      {
+        "token": "operator.sql",
+        "foreground": "#0375a3"
+      },
+      {
+        "token": "predefined",
+        "foreground": "#1862f5"
+      },
+      {
+        "token": "predefined.sql",
+        "foreground": "#1862f5"
+      },
+      {
+        "token": "identifier",
+        "foreground": "#4c4f69"
+      },
+      {
+        "token": "identifier.sql",
+        "foreground": "#4c4f69"
+      },
+      {
+        "token": "identifier.quote",
+        "foreground": "#cc3434"
+      },
+      {
+        "token": "identifier.quote.sql",
+        "foreground": "#cc3434"
+      },
+      {
+        "token": "delimiter",
+        "foreground": "#6a6d81"
+      },
+      {
+        "token": "delimiter.sql",
+        "foreground": "#6a6d81"
+      },
+      {
+        "token": "delimiter.parenthesis",
+        "foreground": "#6a6d81"
+      },
+      {
+        "token": "delimiter.parenthesis.sql",
+        "foreground": "#6a6d81"
+      },
+      {
+        "token": "delimiter.square",
+        "foreground": "#6a6d81"
+      },
+      {
+        "token": "delimiter.square.sql",
+        "foreground": "#6a6d81"
+      },
+      {
+        "token": "invalid",
+        "foreground": "#d00f38"
+      },
+      {
+        "token": "invalid.sql",
+        "foreground": "#d00f38"
+      }
+    ]
+  }
+}

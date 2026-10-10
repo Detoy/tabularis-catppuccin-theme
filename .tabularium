@@ -1,0 +1,47 @@
+{
+  "$schema": "https://registry.tabularis.dev/manifest.schema.json?kind=theme",
+  "id": "catppuccin-theme",
+  "name": "Catppuccin for Tabularis",
+  "description": "Soothing pastel theme for Tabularis: Catppuccin Latte (light) and Catppuccin Mocha (dark).",
+  "license": "MIT",
+  "tags": [
+    "theme",
+    "catppuccin",
+    "pastel",
+    "dark",
+    "light"
+  ],
+  "readme": "README.md",
+  "screenshots": [
+    {
+      "url": "https://raw.githubusercontent.com/Detoy/tabularis-catppuccin-theme/main/docs/screenshots/preview-mocha.png",
+      "caption": "Catppuccin Mocha (preview component render, simulated data)",
+      "alt": "Catppuccin Mocha applied to the Tabularis SQL editor, table toolbar and data grid components"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Detoy/tabularis-catppuccin-theme/main/docs/screenshots/preview-latte.png",
+      "caption": "Catppuccin Latte (preview component render, simulated data)",
+      "alt": "Catppuccin Latte applied to the Tabularis SQL editor, table toolbar and data grid components"
+    }
+  ],
+  "homepage": "https://github.com/Detoy/tabularis-catppuccin-theme",
+  "support": {
+    "issues_url": "https://github.com/Detoy/tabularis-catppuccin-theme/issues"
+  },
+  "version": "1.0.0",
+  "kind": "theme",
+  "min_runtime_version": "0.26.0",
+  "theme_schema_version": 1,
+  "theme_variants": [
+    {
+      "id": "latte",
+      "name": "Catppuccin Latte",
+      "file": "themes/light.json"
+    },
+    {
+      "id": "mocha",
+      "name": "Catppuccin Mocha",
+      "file": "themes/dark.json"
+    }
+  ]
+}
